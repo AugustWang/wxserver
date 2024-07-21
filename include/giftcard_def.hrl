@@ -1,0 +1,2 @@
+
+-record(giftcards,{cardid,roleid}). 

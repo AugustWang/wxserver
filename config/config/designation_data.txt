@@ -1,0 +1,18 @@
+key	attr_addition
+
+16	[{rangepower,85},{magicpower,85},{meleepower,85},{magicdefense,68},{rangedefense,68},{meleedefense,68},{hpmax,425}]
+15	[{rangepower,80},{magicpower,80},{meleepower,80},{magicdefense,64},{rangedefense,64},{meleedefense,64},{hpmax,400}]
+14	[{rangepower,75},{magicpower,75},{meleepower,75},{magicdefense,60},{rangedefense,60},{meleedefense,60},{hpmax,375}]
+13	[{rangepower,70},{magicpower,70},{meleepower,70},{magicdefense,56},{rangedefense,56},{meleedefense,56},{hpmax,350}]
+12	[{rangepower,65},{magicpower,65},{meleepower,65},{magicdefense,52},{rangedefense,52},{meleedefense,52},{hpmax,325}]
+11	[{rangepower,60},{magicpower,60},{meleepower,60},{magicdefense,48},{rangedefense,48},{meleedefense,48},{hpmax,300}]
+10	[{rangepower,55},{magicpower,55},{meleepower,55},{magicdefense,44},{rangedefense,44},{meleedefense,44},{hpmax,275}]
+9	[{rangepower,50},{magicpower,50},{meleepower,50},{magicdefense,40},{rangedefense,40},{meleedefense,40},{hpmax,250}]
+8	[{rangepower,45},{magicpower,45},{meleepower,45},{magicdefense,36},{rangedefense,36},{meleedefense,36},{hpmax,225}]
+7	[{rangepower,40},{magicpower,40},{meleepower,40},{magicdefense,32},{rangedefense,32},{meleedefense,32},{hpmax,200}]
+6	[{rangepower,35},{magicpower,35},{meleepower,35},{magicdefense,28},{rangedefense,28},{meleedefense,28},{hpmax,175}]
+5	[{rangepower,30},{magicpower,30},{meleepower,30},{magicdefense,24},{rangedefense,24},{meleedefense,24},{hpmax,150}]
+4	[{rangepower,25},{magicpower,25},{meleepower,25},{magicdefense,20},{rangedefense,20},{meleedefense,20},{hpmax,125}]
+3	[{rangepower,20},{magicpower,20},{meleepower,20},{magicdefense,16},{rangedefense,16},{meleedefense,16},{hpmax,100}]
+2	[{rangepower,15},{magicpower,15},{meleepower,15},{magicdefense,12},{rangedefense,12},{meleedefense,12},{hpmax,75}]
+1	[{rangepower,10},{magicpower,10},{meleepower,10},{magicdefense,8},{rangedefense,8},{meleedefense,8},{hpmax,50}]

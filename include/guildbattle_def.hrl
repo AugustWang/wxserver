@@ -1,0 +1,2 @@
+-record(guild_battle_proto,{week,checktime,startapplytime,stopapplytime,starttime}).
+-record(guild_battle_result,{guildname,score,rank}).

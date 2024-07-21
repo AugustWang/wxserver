@@ -1,0 +1,4 @@
+-define(NPC_FINAL_TREE,2063099).		%%大圣诞树
+-define(NPC_MIDDLE_TREE,2062099).		%%中圣诞树
+-define(NPC_SMALL_TREE,2061099).		%%小圣诞树
+-define(CHRISTMAS_TREE_BORN_LINE,1).	%%只在1线刷

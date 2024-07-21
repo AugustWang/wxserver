@@ -1,0 +1,1 @@
+-record(role_recruitments,{id,name,level,class,instance}).

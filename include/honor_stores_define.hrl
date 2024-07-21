@@ -1,0 +1,1 @@
+-define(HONOR_STORE_ITEMS_ETS,honor_store_items_ets).

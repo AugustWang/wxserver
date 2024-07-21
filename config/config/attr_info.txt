@@ -1,0 +1,7 @@
+quality	dropnum	attrrate_list
+品质	0没有随机属性值,其他有随机属性值	随机属性值
+4	4	[{{hpmax,1000},25},{{meleedefense,100},25},{{rangedefense,100},25},{{magicdefense,100},25}]
+3	3	[{{hpmax,600},25},{{meleedefense,60},25},{{rangedefense,60},25},{{magicdefense,60},25}]
+2	2	[{{hpmax,400},25},{{meleedefense,40},25},{{rangedefense,40},25},{{magicdefense,40},25}]
+1	1	[{{hpmax,200},25},{{meleedefense,20},25},{{rangedefense,20},25},{{magicdefense,20},25}]
+0	0	[{{hpmax,200},25},{{meleedefense,20},25},{{rangedefense,20},25},{{magicdefense,20},25}]

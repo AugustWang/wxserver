@@ -1,0 +1,3 @@
+spa_id	instance_proto	looptime	duration	chopping	swimming	vip_exp_addition	vip_op_addition
+
+1	12003	10000	3600000	5	5	[]	[]

@@ -1,0 +1,5 @@
+-define(COLOR_WHITE,16#ffffff).
+-define(COLOR_GREEN,16#00FF00).
+-define(COLOR_BLUE,16#3399ff).
+-define(COLOR_PURPLE,16#ff00ff).
+-define(COLOR_GOLDEN,16#CD7F32).

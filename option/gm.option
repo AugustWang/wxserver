@@ -1,0 +1,103 @@
+[
+	{platformfile,"../option/designer.option"},
+    {stat_switch, 1},
+	{aoi_view,28},
+	{monster_reaction_time,500},
+	
+	%%抽奖冷却时间 
+	{lottery_cooldown,1800},
+	
+	{nodes,[{gate,['gate1','gate2','gate3','gate4','gate5','gate6']}
+			,{map,['map1','map2','map3','map4','map5','map6','map7','map8'
+			      ,'map9','map10','map11','map12','map13','map14','map_share']}			
+			,{gm,['gm']}
+			,{cross,['cross']}
+			,{chat,['chat1','chat2','chat3','chat4','chat5','chat6']}
+			,{db,['db']}
+			,{dbslave,['dbslave']}
+			,{guild,['guild']}
+			,{line,['line']}
+			,{auth,['auth']}
+			,{timer,['timer']}
+			%%跨服进程
+			,{map_travel,['map_share']}
+			%%{全局唯一的进程,[启动节点]}
+			,{guild_manager,['guild']}
+			,{country_manager,['guild']}
+			,{auth_processor,['auth']}
+			,{gmauth_processor,['auth']}
+			,{loudspeaker_manager,['chat1']}
+			,{guildid_generator,['line']}
+			,{instanceid_generator,['line']}
+			,{itemid_generator,['line']}
+			,{gm_notice_checker,['line']}
+			,{lines_manager,['line']}
+			,{line_processor,['line']}
+			,{mailid_generator,['line']}
+			,{petid_generator,['line']}
+			,{roleid_generator,['line']}
+			,{visitor_generator,['line']}
+			,{activity_manager,['map2','map_share']}
+			,{auction_manager,['map1']}
+			,{battle_ground_manager,['map2']}
+			,{guildbattle_manager,['map2']}
+			,{dragon_fight_processor,['map2']}			%%与activity_manager同一节点
+			,{answer_processor,['map2']}						%%与activity_manager同一节点
+			,{game_rank_manager,['map2']}
+			,{group_manager,['map1']}
+			,{loop_instance_mgr,['map2']}
+			,{db_node,['db']}												%%数据库进程所在节点
+			,{gm_node,['gm']}
+			,{guild_instance_processor,['map2']}
+			]},
+	{global_wait,
+	[
+	%%{节点类型,[需要当作global使用的进程]}
+	{gate,[auth_processor,gmauth_processor,lines_manager,db_node,gm_node]}
+	,{auth,[auth_processor,gmauth_processor,itemid_generator,mailid_generator,petid_generator,roleid_generator,visitor_generator,db_node]}
+	,{gm,[auth_processor,gmauth_processor,lines_manager,mailid_generator,db_node,gm_node]}
+	,{chat,[lines_manager,loudspeaker_manager,db_node,gm_node]}
+	,{map,[auction_manager,guild_manager,loudspeaker_manager,instanceid_generator,
+					itemid_generator,line_processor,lines_manager,mailid_generator,
+					petid_generator,roleid_generator,visitor_generator,activity_manager,group_manager,country_manager,loop_instance_mgr,
+					auction_manager,battle_ground_manager,dragon_fight_processor,answer_processor,db_node,gm_node,
+					game_rank_manager,guildbattle_manager,guild_instance_manager,guild_instance_processor]}
+	,{guild,[guild_manager,guildid_generator,mailid_generator,db_node,gm_node,country_manager]}
+	,{db,[itemid_generator,mailid_generator,petid_generator,roleid_generator,visitor_generator,db_node,gm_node]}
+	,{line,[guildid_generator,instanceid_generator,loudspeaker_manager,
+					itemid_generator,gm_notice_checker,lines_manager,line_processor,
+					mailid_generator,petid_generator,roleid_generator,visitor_generator,db_node,gm_node]}
+	]},
+			   
+	{crossport,[{'cross',843},
+							{openport,[80,8080,8081,8082,8083,8084,8085]}			%%对外界开发的端口(针对flash程序)
+							]},		
+	%%提前加载物理数据的地图(所有副本都需要)
+	%%{preload_map,[306,502,603,901,902,4000,4001,4002,4003,5001,5002,5003,5004,5005,1401,5006,4004,1201,1202,309,310,311,312,313,320,321]},
+	{preload_map,[100,101,200,202,300,301,302,303,304,305,306,307,309,310,311,312,313,320,321,333,400,500,501,502,503,600,601,602,603,604,700,701,800,900,901,902,1000,1001,1100,
+	1200,1201,1202,1203,1300,1301,1400,1401,1500,1600,1601,4000,4001,4002,4003,4004,5001,5002,5003,5004,5005,5006,10002,330,339,1811,1812,1813,1814,1815,1816,1821,1822,1823,1824,1825,1831,
+	1832,1833,1834,6001,6002,1403,7001,7002,7003]},
+	%%副本地图
+	{instance_map,[306,1201,502,603,901,902,102,4000,4001,4002,4003,4004,5001,5002,5003,5004,5005,5006,5010,1401,320,321,1203,1811,1812,1813,1814,1815,1816,1821,1822,1823,1824,1825,1831,
+	1832,1833,1834,6001,6002,1403,7001,7002,7003]},
+	
+	%%备份数据
+	{dbback,[{output,"../backup/"},
+			 {checkinterval,60000}, %% 1 min check
+			 {ignortables,[]},
+			 {between_hour,{4,5}},
+			 {backinterval,86400000}, 
+			 {serverbackupdbfile,"zybackup_db"}]},
+	
+	{sensitive,"../option/senswords.config"}, %%敏感词典
+	{nameissensitive,"../option/blackname.config"}, %%起名字全匹配
+	{nameisblackheader,"../option/blacknameheader.config"}, %%起名字前头匹配
+	
+	{language,"../option/zh_cn.config"},																								%%语言配置文件
+	
+	{whiteip,[{file,"../option/whiteip.config"}]},
+	
+	{blackip,[{file,"../option/blackip.config"}]},
+	
+	{logtypemax,[ {1,100},{2,100},{3,100},{4,100},{5,100},{6,100}]}
+].

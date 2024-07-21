@@ -1,0 +1,24 @@
+[
+	{nodes_ram_table,[
+									{map,[role_pos,instance_pos,groups,role_recruitments,rank_role_db]},
+	                {gate,[role_pos,instance_pos]},	              
+									{chat,[role_pos,instance_pos]},
+						  		{line,[role_pos,instance_pos,rank_role_db]},
+									{guild,[role_pos]}
+									]},				
+	{nodes_ets,[
+				 {map,all},	  					
+				 {gate,[role_db,login_pb,senswords,item_template_db,blackip,whiteip,system_chat_db,autoname_db,map_info_db]},
+				 {line,[map_info_db]},
+				 {guild,[guild_proto_db,guild_treasure_transport_db,db_split,senswords,language,login_pb,system_chat_db,item_template_db,country_db,guildbattle_db]},
+				 {chat,[senswords,login_pb,system_chat_db]}
+				 ]},
+	{gm,[{acceptor_count,2}]},
+	{gm_logger_enable,[{role,enable},
+					   {guild,enable}]},
+	{gate,[{acceptor_count,2}]},
+	
+	{dmp,[{flush_interval,300000},{ets_swap_seconds,300}]},
+		   
+	{unknown,[]}
+].

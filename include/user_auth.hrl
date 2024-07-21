@@ -1,0 +1,1 @@
+-record(user_auth, {username,userid,lgtime,cm,flag,userip,type,sid,openid,openkey,appid,pf,pfkey}).

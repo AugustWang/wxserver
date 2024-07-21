@@ -1,0 +1,2 @@
+-record(role_designation_info,{roleid,cur_designation,designation_info}).
+-record(designation_data,{key,attr_addition}).

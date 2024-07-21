@@ -1,0 +1,10 @@
+id	point_num	attr_addition
+
+8	21	[{toughness,40}]
+7	21	[{criticaldestroyrate,40}]
+6	21	[{criticalrate,40}]
+5	21	[{dodge,40}]
+4	21	[{hitrate,40}]
+3	21	[{hpmax,300}]
+2	21	[{magicdefense,40},{rangedefense,40},{meleedefense,40}]
+1	21	[{magicpower,50},{rangepower,50},{meleepower,50}]

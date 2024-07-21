@@ -1,0 +1,7 @@
+{['../src/modules/behaviour_mods/*',
+  '../src/nodes/*/*', '../src/nodes/*/*/*','../src/nodes/*/*/*/*','../src/nodes/*/*/*/*/*',
+  '../src/modules/*/*', '../src/modules/*/*/*','../src/modules/*/*/*/*','../src/modules/*/*/*/*/*'],
+  [encrypt_debug_info,{i, "../include"}, {outdir, "../ebin"}, nowarn_unused_vars, nowarn_unused_function,native,{hipe,[o3]}]}.
+
+{'../src/client_mock/*',[encrypt_debug_info,{i, "../include"}, {outdir, "../ebin"}, nowarn_unused_vars, nowarn_unused_function,native]}.
+{'../src/modules/*/test/*',[encrypt_debug_info,{i, "../include"}, {outdir, "../ebin"}, nowarn_unused_vars, nowarn_unused_function,native]}.

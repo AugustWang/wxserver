@@ -1,0 +1,15 @@
+property	convert
+
+magicpower_percent	[rangepower_percent,meleepower_percent]
+rangepower_percent	[meleepower_percent,magicpower_percent]
+meleepower_percent	[rangepower_percent,magicpower_percent]
+magicpower	[rangepower,meleepower]
+rangepower	[meleepower,magicpower]
+meleepower	[rangepower,magicpower]
+agile_effect	[strength_effect,intelligence_effect,stamina_effect]
+intelligence_effect	[strength_effect,stamina_effect,agile_effect]
+strength_effect	[stamina_effect,intelligence_effect,agile_effect]
+stamina_effect	[strength_effect,intelligence_effect,agile_effect]
+magicdefense	[rangedefense,meleedefense]
+rangedefense	[meleedefense,magicdefense]
+meleedefense	[rangedefense,magicdefense]

@@ -1,0 +1,7 @@
+%%任务扫描等级
+-define(QUEST_SCAN_RANGE,5).
+%%任务状态
+-define(QUEST_STATUS_COMPLETE,1).
+-define(QUEST_STATUS_INCOMPLETE,2).
+-define(QUEST_STATUS_AVAILABLE,3).
+-define(QUEST_STATUS_UNAVAILABLE,4).

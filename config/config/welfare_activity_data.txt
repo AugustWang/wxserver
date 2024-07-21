@@ -1,0 +1,4 @@
+type	isshow	starttime	endtime	gift	condition
+
+2	0	[]	[]	[]	[]
+1	1	[]	[]	[]	[]

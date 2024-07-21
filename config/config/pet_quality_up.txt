@@ -1,0 +1,3 @@
+quality_value	rate	consumemoney	needs	consumegold
+
+10	{3,25}	500	121	10000

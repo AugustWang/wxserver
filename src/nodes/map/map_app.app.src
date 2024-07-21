@@ -1,0 +1,9 @@
+{application, map_app,
+[{description,"ZY map application"},
+ {vsn,"1.0"},
+ {modules,[map_app,map_sup,map_processor,map_manager,map_manager_sup,mapdb_sup,mapdb_processor]},
+ {registered,[map_sup,map_manager_sup,mapdb_sup]},
+ {applications,[kernel,stdlib]},
+ {mod,{map_app,[]}}
+ ]
+}.

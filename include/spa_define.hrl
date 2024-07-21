@@ -1,0 +1,2 @@
+-record(spa_option,{spa_id,instance_proto,looptime,duration,chopping,swimming,vip_exp_addition,vip_op_addition}).
+-record(spa_exp,{level,exp,soulpower,chopping_self,chopping_be,swimming_self,swimming_be}).

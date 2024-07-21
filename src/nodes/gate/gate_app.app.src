@@ -1,0 +1,9 @@
+{application, gate_app,
+[{description,"ZY Game Gate"},
+ {vsn,"1.0"},
+ {modules,[gate_app,tcp_listener,tcp_listener_sup,tcp_acceptor_sup,tcp_acceptor,tcp_client_sup,tcp_client]},
+ {registered,[tcp_listener,tcp_listener_sup,tcp_acceptor_sup]},
+ {applications,[kernel,stdlib]},
+ {mod,{gate_app,[]}}
+ ]
+}.

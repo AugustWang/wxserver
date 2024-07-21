@@ -1,0 +1,1 @@
+-record(level_activity_rewards_db,{level,dragon_fight_exp}). 

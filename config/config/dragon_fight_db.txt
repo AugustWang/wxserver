@@ -1,0 +1,4 @@
+id	start_pos	duration	relation_questid	red_dragon_buff	blue_dragon_buff
+
+2	{300,218,173}	[]	110041001	{500000001,1}	{500000002,1}
+1	{300,218,173}	[]	110041001	{500000001,1}	{500000002,1}

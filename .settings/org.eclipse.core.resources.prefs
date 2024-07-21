@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//config/game.config=UTF-8
+encoding//option/gm.option=UTF-8
+encoding//scripts/create_tables.sh=UTF-8
+encoding//src/modules/auction/auction_db.erl=UTF-8
+encoding/<project>=UTF-8
+encoding/src=UTF-8
+separateDerivedEncodings=true

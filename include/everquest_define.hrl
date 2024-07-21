@@ -1,0 +1,31 @@
+
+-define(NORMAL_EVERQUEST,1).
+-define(CYCLE_EVERQUEST,2).
+
+-define(SPECIAL_TAG_NORMAL,0).
+-define(SPECIAL_TAG_TREASURE_TRANSPORT,1).
+
+-define(EVERQYEST_QUALITY_WHITE,1).
+-define(EVERQYEST_QUALITY_GREEN,2).
+-define(EVERQYEST_QUALITY_BLUE,3).
+-define(EVERQYEST_QUALITY_PURPLE,4).
+-define(EVERQYEST_QUALITY_GOLDEN,5).
+
+-define(MAX_QUALITY,5).
+%%quest_random
+-define(CUR_SECTION_RATE,100).
+-define(QUALITY_ADDATION,[0,40,80,130,200]).
+
+-define(FRESH_TYPE_FREE,1).
+-define(FRESH_TYPE_GOLD,2).
+-define(FRESH_TYPE_TICKET,3).
+-define(FRESH_TYPE_ITEM,4).
+-define(FRESH_TYPE_MONEY,5).
+-define(FRESH_TYPE_AUTO,6).
+
+-define(REWARD_TYPE_NUM,0).			%%Num
+-define(REWARD_TYPE_LEVEL_NUM,1).	%%Level*Num
+-define(REWARD_TYPE_DRAGON_FIGHT,2).	%%dragon_fight
+-define(REWARD_TYPE_TREASURE_TRANSPORT,3).	%%treasure_transport
+
+-define(DIRECT_COMPLETE_MAX_ROUND,10).

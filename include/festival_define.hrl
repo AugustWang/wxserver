@@ -1,0 +1,34 @@
+-define(UNCERTAIN_FESTIVAL,0).
+-define(FESTIVAL_RECHARGE,1).
+-define(FESTIVAL_CONTROL_ETS,festival_control_ets).
+-define(FESTIVAL_RECHARGE_GIFT_ETS,festival_recharge_gift_ets).
+-define(FOREVER,1).
+-define(CLOSE,0).
+-define(DURING_ACTIVTIY,1).
+-define(DURING_AWARD,2).
+-define(ZORE_CRYSTAL,0).
+-define(ZORE_CHARGE,0).
+-define(CANNOTFINISH,0).
+-define(FINISH,1).
+-define(UNFINISH,2).
+-define(CANNOTOBTAIN,0).
+-define(HASOBTAIN,1).
+-define(CANOBTAIN,2).
+-define(CUROBTAIN,3).
+-define(EXCHANGERATE,10).
+-define(ZORE_Silver,0).
+-define(SECONDS_PER_MINUTE, 60).
+-define(SECONDS_PER_HOUR, 3600).
+-define(SECONDS_PER_DAY, 86400).
+-define(ZORE_SECOND,0).
+-define(Festival_TAB,9).
+-define(OPEN_SERVICE_TAB,10).
+-define(SHOW,1).
+-define(NOTSHOW,0).
+-define(ZORE,0).
+-define(ZORE_HOUR,0).
+-define(ZORE_MINUTE,0).
+-define(OPEN,1).
+-define(MAIL_TITLE,116).
+-define(MAIL_CONTENT,117).
+-define(MAIL_FROMNAME,63).

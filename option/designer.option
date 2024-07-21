@@ -1,0 +1,287 @@
+[
+	{platform,'designer'},
+	{baseserverid,0},
+	{serverid,1},
+	{serverids,[1]}, 
+	{cookie,'E3it45tiOjLi&fie8Hje56uMu67h'},
+	{share_map_node,[]},
+	{share_maps,[]},
+	{share_map_server,0},
+	{gateport,[{'gate1',8001}]},		   
+	{gmport,[{'gm',20130}]},
+	
+	{create_role_base,role_create_deploy},
+	{line_switch,[{fixed,[1,2]},
+	             {dynamic,[]},
+	             {open_count,50}]},
+	
+	{lines,[1,2]},
+	{lonely_maps,[1202,330,333,4101,4102,4103,4104,4105,4106,4107,4108,4109]},
+	{gmsecretkey,"E3it45taadfasxcyerfs%&*&6uMu67h"},
+	{gmauthttimeout,3600},
+	{gmiplist,[{"192.168.1.1","192.168.1.254"},{"192.168.0.1","192.168.0.254"},{"127.0.0.1","127.0.0.1"}]},
+	{gmaccount,["yanghh","yanghuan","zhanghao","testivy1","testivy2","testivy3","testivy4","testivy5","testivy6","testivy7","testivy8","testivy9","testivy0",
+							"yanerzhao","test","test1","test2","test3","test4","test5","test6","test7","test8","test9","test10",
+							"xinmingzi1","xinmingzi2","xinmingzi3","xinmingzi4","xinmingzi5","xinmingzi6","xinmingzi7","xinmingzi8","xinmingzi9","youtest1","youtest2",
+							"zangyu1", "zangyu2","zangyu3","zangyu4","zangyu5","zangyu6","zangyu7","zangyu8","zangyu9","zangyu10",
+							"xinlei1","xinlei2","xinlei3","xinlei4","xinlei5","xinlei6","xinlei7","xinlei8","xinlei9","xinlei10",
+							"baibozp2010", "baibozp2011","baibozp2012","baibozp2013","baibozp2014","baibozp2015","baibozp2016","baibozp2017","baibozp2018","baibozp2019","baibozp2020",
+							"wwd10121","wwd10122","wwd10123","wwd10124","wwd10125","wwd10126","wwd10127","wwd10128","wwd10129","wwd10120",
+							"wwd1","wwd2","wwd3","wwd4","wwd5","wwd6","wwd7","wwd8","wwd9","wwd0",
+							"testdwh0","testdwh1","testdwh2","testdwh3","testdwh4","testdwh5","testdwh6","testdwh7","testdwh8","testdwh9",
+							"testzl1","testzl2","testzl3","testzl3","testzl4","testzl5",
+							"yanghuan","yanghuan1","yanghuan2","yanghuan3","yanghuan4","yanghuan5","yanghuan6",
+							"wy1","wy2","wy3","wy4","wy5","wy6","wy7","wy8","wy9","wy10","wy11","wy12","wy13","wy14","wy15","wy16","wy17","wy18","wy19","wy20","wy21","wy22","wy23","wy24","wy25",
+							"zch1","zch2","zch3","zch4","zch5","zch6","zch7","zch8","zch9","zch10","zch11","zch12","zch13","zch14","zch15","zch16","zch17","zch18","zch19","zch20","zch21","zch22","zch23","zch24","zch25",
+							"gg","z","x","t6","c","v","b","n","m","wjk","mlc","xiaojian","l1","l2","l3","liuxiaosu","ly","fengshao",
+							"zch1","zch2","zch5","zch6","zch7","zch8","zch9","zch10","zch11","zch12","zch13","zch14","zch15","zch16","zch17","zch18","zch19","zch20","zch21","zch22","zch23","zch24","zch25",
+							"ph1","ph2","ph3","ph4","ph5","ph6","ph7","ph8","ph9","ph10","ph11","ph12","ph13","ph14","ph15","ph16","ph17","ph18","ph19","ph20",
+							"xj1","xj2","xj3","xj4","xj5","xj6","xj7","xj8","xj9","xj10",
+							"wjk1","wjk2","wjk3","wjk4","wjk5","wjk6","wjk7","wjk8","wjk9","wjk10","wjk11","wjk12","wjk13","wjk14","wjk15","wjk16","wjk17","wjk18","wjk19","wjk20"
+							"qwe0","qwe1","qwe2","qwe3","qwe4","qwe5","qwe6","qwe7","qwe8","qwe9","qwe10","qwe11","qwe12","qwe13","qwe14","qwe15","qwe16","qwe17","qwe18","qwe19","qwe20",
+							"qwe21","qwe22","qwe23","qwe24","qwe25","qwe26","qwe27","qwe28","qwe29","qwe30","qwe31","qwe32","qwe33","qwe34","qwe35","qwe36","qwe37","qwe38","qwe39","qwe40",
+							"qwe41","qwe42","qwe43","qwe44","qwe45","qwe46","qwe47","qwe48","qwe49","qwe50","qwe51","qwe52","qwe53","qwe54","qwe55","qwe56","qwe57","qwe58","qwe59","qwe60",
+							"qwe61","qwe62","qwe63","qwe64","qwe65","qwe66","qwe67","qwe68","qwe69","qwe70","qwe71","qwe72","qwe73","qwe74","qwe75","qwe76","qwe77","qwe78","qwe79","qwe80",
+							"qwe81","qwe82","qwe83","qwe84","qwe85","qwe86","qwe87","qwe88","qwe89","qwe90","qwe91","qwe92","qwe93","qwe94","qwe95","qwe96","qwe97","qwe98","qwe99"]},
+	{gm_logger,[{tempdir,"./"},{outdir,"/app/gm/xueyu2log/loglist/"},{close_file_interval,60000}]},
+	{gm_insert_mysql,[{buffer_lines,1000},
+					  {interval,120000},
+			   		  {interval_ext,[{create_role,30000},{gold_change,60000}]}
+	]},
+	{mysql,[{host,"192.168.1.251"},
+			{usr,"root"},
+			{password,"147258"},
+			{port,3306},
+			{database,"wuxian"},
+			{init_conn_nums,30},
+			{min_conn_nums,5},
+			{max_conn_nums,50}]},
+	{scribe, [{host, "192.168.1.24"}, {port, 8250}, {category, "QQ_WDCQ_~s_SERVER~p_~4..0w-~2..0w-~2..0w"}, {scence, 'QQ_WDCQ'}]},
+    {snapshot, [{prefix, "/tmp/data/"}, {category, "QQ_WDCQ_~s_SERVER~p_~4..0w-~2..0w-~2..0w"}]},
+	%%{baidu_post,[
+	%%			 {app_secret,"8aa6fdb33315f2c301331fa179997500"},
+	%%			 {api_key,"3315f2c3013347db49f074ff1fa17999"},
+	%%			 {server_id,"1"},
+	%%			 {host,"youxi.baidu.com"},
+	%%			 {port,80},
+	%%			 {page,"/game_role_rest"}
+	%%			]},
+	
+	{id_secret_mod,identify_verify},
+	{id_secret_key,"shjdysuwei32*&DSdooiew"},
+	{id_secret_host,"119.147.19.43"},
+	{id_secret_port,80},
+	{id_secret_appid,"100622829"},
+	{id_secret_appkey,"8256306d3d287ac69c7632513a75aa54&"},
+	{id_secret_page,"/v3/user/get_info?"},
+	
+	{authtimeout,13600},
+ 	%%{platformkey,"dddddfsdaf"},
+ 	{platformkey,""},
+	{auth_module,auth_qq},
+	{loop_tower_daily_count,100000},
+	{visitorkey,"7vuimzz4zrwtm*%$xa3sag5"},
+	{hot_item,[19010210,17000080,16000330,13010010,19000490]},
+	{golden_plume_awards_gift,60000020},
+	{gift_card_url,"http://web.4399.com/zy/xsk/"},
+	{gift_card_itemid,10031001},
+	{first_charge_gift_itemid,10032001},
+	{system_status,[
+	            %% key , {current ,filteripvalue}
+	            {1,{1,1}},
+				{2,{1,1}}, 
+				{3,{1,1}}, 
+	            {4,{0,0}}, 
+	            {5,{1,1}},  
+	            {6,{1,1}},  
+	            {7,{0,0}},	
+	            {8,{1,1}},	
+	            {9,{1,1}},  
+	            {10,{1,1}}, 
+		    	{11,{1,1}},   
+		    	{12,{1,1}}, 
+		    	{13,{0,0}},  
+		    	{14,{1,1}},	
+		    	{15,{1,1}},	
+		    	{16,{1,1}},
+		    	{17,{1,1}},
+		    	{18,{1,1}},	
+				{22,{1,1}},
+				{23,{0,0}}	
+	            ]},
+	{commoncdswitch,1},	
+	{yhzq_battle_group_type,2}, 
+	{register_enable,1},			
+	{mapconfig_flag,1},		
+	{lines_info,[
+		%% static line {lineid[{mapid,map_node}]}
+	   {1,[{100, 'map1'},{101, 'map1'},{200, 'map1'},{202, 'map1'},{300, 'map1'},{301, 'map1'},{302, 'map1'},{303, 'map1'},
+			{304, 'map1'},{305, 'map1'},{307, 'map1'},{400, 'map1'},{500, 'map2'},{501, 'map1'},{502, 'map1'},{503, 'map1'},
+			{600, 'map1'},{601, 'map1'},{602, 'map1'},{603, 'map1'},{604, 'map1'},{700, 'map1'},{701, 'map1'},{800, 'map1'},
+			{900, 'map1'},{901, 'map1'},{902, 'map1'},{1000, 'map1'},{1001, 'map1'},{10002, 'map1'},{1100, 'map1'},
+			{4000, 'map1'},{4001, 'map1'},{4002, 'map1'},{4003, 'map1'},{4004, 'map1'},{5001, 'map1'},{5002, 'map1'},{5003, 'map1'},{5004, 'map1'},{5005, 'map1'}
+			,{1200,'map1'},{1300,'map1'},{1400,'map1'},{1401,'map1'},{1301,'map1'},{5006,'map1'},{1201,'map1'},{1202,'map1'}
+			,{309,'map1'},{310,'map1'},{311,'map1'},{312,'map1'},{313,'map1'},{320,'map1'},{321,'map1'},{6001,'map1'}
+			,{1500,'map1'},{1600,'map1'},{1601,'map1'},{330,'map1'},{339,'map1'},{1203,'map1'},{333,'map1'}
+			,{4101,'map1'},{4102,'map1'},{4103,'map1'},{4104,'map1'},{4105,'map1'},{4106,'map1'},{4107,'map1'},{4108,'map1'},{4109,'map1'}
+			]},		
+	   {2,[{100, 'map2'},{101, 'map2'},{200, 'map2'},{202, 'map2'},{300, 'map2'},{301, 'map2'},{302, 'map2'},{303, 'map2'},
+			{304, 'map2'},{305, 'map2'},{307, 'map2'},{400, 'map2'},{500, 'map1'},{501, 'map2'},{502, 'map2'},{503, 'map2'},
+			{600, 'map2'},{601, 'map2'},{602, 'map2'},{603, 'map2'},{604, 'map2'},{700, 'map2'},{701, 'map2'},{800, 'map2'},
+			{900, 'map2'},{901, 'map2'},{902, 'map2'},{1000, 'map2'},{1001, 'map2'},{10002, 'map2'},{1100, 'map2'}
+			,{4000, 'map2'},{4001, 'map2'},{4002, 'map2'},{4003, 'map2'},{4004, 'map2'},{5001, 'map2'},{5002, 'map2'},{5003, 'map2'},{5004, 'map2'},{5005, 'map2'}
+			,{1200,'map2'},{1300,'map2'},{1400,'map2'},{1401,'map2'},{1301,'map2'},{5006,'map2'},{6001,'map1'}
+			,{1500,'map2'},{1600,'map2'},{1601,'map2'},{1203,'map2'}
+			]},
+			
+	   {3,[{100, 'map3'},{101, 'map3'},{200, 'map3'},{202, 'map3'},{300, 'map3'},{301, 'map3'},{302, 'map3'},{303, 'map3'},
+			{304, 'map3'},{305, 'map3'},{307, 'map3'},{400, 'map3'},{500, 'map3'},{501, 'map3'},{502, 'map3'},{503, 'map3'},
+			{600, 'map3'},{601, 'map3'},{602, 'map3'},{603, 'map3'},{604, 'map3'},{700, 'map3'},{701, 'map3'},{800, 'map3'},
+			{900, 'map3'},{901, 'map3'},{902, 'map3'},{1000, 'map3'},{1001, 'map3'},{1100, 'map3'},{10002, 'map3'},{306,'map3'},
+			{4000, 'map3'},{4001, 'map3'},{4002, 'map3'},{4003, 'map3'},{4004, 'map3'},{5001, 'map3'},{5002, 'map3'},{5003, 'map3'},{5004, 'map3'},{5005, 'map3'}
+			,{1200,'map3'},{1300,'map3'},{1400,'map3'},{1401,'map3'},{1301,'map3'},{5006,'map3'},{6001,'map1'}
+			,{1500,'map3'},{1600,'map3'},{1601,'map3'},{1203,'map3'}
+			]},
+			
+	   {4,[{100, 'map4'},{101, 'map4'},{200, 'map4'},{202, 'map4'},{300, 'map4'},{301, 'map4'},{302, 'map4'},{303, 'map4'},
+			{304, 'map4'},{305, 'map4'},{307, 'map4'},{400, 'map4'},{500, 'map4'},{501, 'map4'},{502, 'map4'},{503, 'map4'},
+			{600, 'map4'},{601, 'map4'},{602, 'map4'},{603, 'map4'},{604, 'map4'},{700, 'map4'},{701, 'map4'},{800, 'map4'},
+			{900, 'map4'},{901, 'map4'},{902, 'map4'},{1000, 'map4'},{1001, 'map4'},{1100, 'map4'},{10002, 'map4'},{306,'map4'},
+			{4000, 'map4'},{4001, 'map4'},{4002, 'map4'},{4003, 'map4'},{4004, 'map4'},{5001, 'map4'},{5002, 'map4'},{5003, 'map4'},{5004, 'map4'},{5005, 'map4'}
+			,{1200,'map4'},{1300,'map4'},{1400,'map4'},{1401,'map4'},{1301,'map4'},{5006,'map4'},{6001,'map1'}
+			,{1500,'map4'},{1600,'map4'},{1601,'map4'},{1203,'map4'}
+			]},	
+			
+	   {5,[{100, 'map5'},{101, 'map5'},{200, 'map5'},{202, 'map5'},{300, 'map5'},{301, 'map5'},{302, 'map5'},{303, 'map5'},
+			{304, 'map5'},{305, 'map5'},{307, 'map5'},{400, 'map5'},{500, 'map5'},{501, 'map5'},{502, 'map5'},{503, 'map5'},
+			{600, 'map5'},{601, 'map5'},{602, 'map5'},{603, 'map5'},{604, 'map5'},{700, 'map5'},{701, 'map5'},{800, 'map5'},
+			{900, 'map5'},{901, 'map5'},{902, 'map5'},{1000, 'map5'},{1001, 'map5'},{1100, 'map5'},{10002, 'map5'},{306,'map5'},
+			{4000, 'map5'},{4001, 'map5'},{4002, 'map5'},{4003, 'map5'},{4004, 'map5'},{5001, 'map5'},{5002, 'map5'},{5003, 'map5'},{5004, 'map5'},{5005, 'map5'}
+			,{1200,'map5'},{1300,'map5'},{1400,'map5'},{1401,'map5'},{1301,'map5'},{5006,'map5'},{6001,'map1'}
+			,{1500,'map5'},{1600,'map5'},{1601,'map5'},{1203,'map5'}
+			]},	
+				
+	   {6,[{100, 'map6'},{101, 'map6'},{200, 'map6'},{202, 'map6'},{300, 'map6'},{301, 'map6'},{302, 'map6'},{303, 'map6'},
+			{304, 'map6'},{305, 'map6'},{307, 'map6'},{400, 'map6'},{500, 'map6'},{501, 'map6'},{502, 'map6'},{503, 'map6'},
+			{600, 'map6'},{601, 'map6'},{602, 'map6'},{603, 'map6'},{604, 'map6'},{700, 'map6'},{701, 'map6'},{800, 'map6'},
+			{900, 'map6'},{901, 'map6'},{902, 'map6'},{1000, 'map6'},{1001, 'map6'},{1100, 'map6'},{10002, 'map6'},{306,'map6'},
+			{4000, 'map6'},{4001, 'map6'},{4002, 'map6'},{4003, 'map6'},{4004, 'map6'},{5001, 'map6'},{5002, 'map6'},{5003, 'map6'},{5004, 'map6'},{5005, 'map6'}
+			,{1200,'map6'},{1300,'map6'},{1400,'map6'},{1401,'map6'},{1301,'map6'},{5006,'map6'},{6001,'map1'}
+			,{1500,'map6'},{1600,'map6'},{1601,'map6'},{1203,'map6'}
+			]},	
+			
+	   {7,[{100, 'map7'},{101, 'map7'},{200, 'map7'},{202, 'map7'},{300, 'map7'},{301, 'map7'},{302, 'map7'},{303, 'map7'},
+			{304, 'map7'},{305, 'map7'},{307, 'map7'},{400, 'map7'},{500, 'map7'},{501, 'map7'},{502, 'map7'},{503, 'map7'},
+			{600, 'map7'},{601, 'map7'},{602, 'map7'},{603, 'map7'},{604, 'map7'},{700, 'map7'},{701, 'map7'},{800, 'map7'},
+			{900, 'map7'},{901, 'map7'},{902, 'map7'},{1000, 'map7'},{1001, 'map7'},{1100, 'map7'},{10002, 'map7'},{306,'map7'},
+			{4000, 'map7'},{4001, 'map7'},{4002, 'map7'},{4003, 'map7'},{4004, 'map7'},{5001, 'map7'},{5002, 'map7'},{5003, 'map7'},{5004, 'map7'},{5005, 'map7'}
+			,{1200,'map7'},{1300,'map7'},{1400,'map7'},{1401,'map7'},{1301,'map7'},{5006,'map7'},{6001,'map1'}
+			,{1500,'map7'},{1600,'map7'},{1601,'map7'},{1203,'map7'}
+			]},	
+			
+	   {8,[{100, 'map8'},{101, 'map8'},{200, 'map8'},{202, 'map8'},{300, 'map8'},{301, 'map8'},{302, 'map8'},{303, 'map8'},
+			{304, 'map8'},{305, 'map8'},{307, 'map8'},{400, 'map8'},{500, 'map8'},{501, 'map8'},{502, 'map8'},{503, 'map8'},
+			{600, 'map8'},{601, 'map8'},{602, 'map8'},{603, 'map8'},{604, 'map8'},{700, 'map8'},{701, 'map8'},{800, 'map8'},
+			{900, 'map8'},{901, 'map8'},{902, 'map8'},{1000, 'map8'},{1001, 'map8'},{1100, 'map8'},{10002, 'map8'},{306,'map8'},
+			{4000, 'map8'},{4001, 'map8'},{4002, 'map8'},{4003, 'map8'},{4004, 'map8'},{5001, 'map8'},{5002, 'map8'},{5003, 'map8'},{5004, 'map8'},{5005, 'map8'}
+			,{1200,'map8'},{1300,'map8'},{1400,'map8'},{1401,'map8'},{1301,'map8'},{5006,'map8'},{6001,'map1'}
+			,{1500,'map8'},{1600,'map8'},{1601,'map8'},{1203,'map8'}
+			]},	
+
+	   {9,[{100, 'map9'},{101, 'map9'},{200, 'map9'},{202, 'map9'},{300, 'map9'},{301, 'map9'},{302, 'map9'},{303, 'map9'},
+			{304, 'map9'},{305, 'map9'},{307, 'map9'},{400, 'map9'},{500, 'map9'},{501, 'map9'},{502, 'map9'},{503, 'map9'},
+			{600, 'map9'},{601, 'map9'},{602, 'map9'},{603, 'map9'},{604, 'map9'},{700, 'map9'},{701, 'map9'},{800, 'map9'},
+			{900, 'map9'},{901, 'map9'},{902, 'map9'},{1000, 'map9'},{1001, 'map9'},{1100, 'map9'},{10002, 'map9'},{306,'map9'},
+			{4000, 'map9'},{4001, 'map9'},{4002, 'map9'},{4003, 'map9'},{4004, 'map9'},{5001, 'map9'},{5002, 'map9'},{5003, 'map9'},{5004, 'map9'},{5005, 'map9'}
+			,{1200,'map9'},{1300,'map9'},{1400,'map9'},{1401,'map9'},{1301,'map9'},{5006,'map9'},{6001,'map1'}
+			,{1500,'map9'},{1600,'map9'},{1601,'map9'},{1203,'map9'}
+			]},	
+
+	   {10,[{100, 'map10'},{101, 'map10'},{200, 'map10'},{202, 'map10'},{300, 'map10'},{301, 'map10'},{302, 'map10'},{303, 'map10'},
+			{304, 'map10'},{305, 'map10'},{307, 'map10'},{400, 'map10'},{500, 'map10'},{501, 'map10'},{502, 'map10'},{503, 'map10'},
+			{600, 'map10'},{601, 'map10'},{602, 'map10'},{603, 'map10'},{604, 'map10'},{700, 'map10'},{701, 'map10'},{800, 'map10'},
+			{900, 'map10'},{901, 'map10'},{902, 'map10'},{1000, 'map10'},{1001, 'map10'},{1100, 'map10'},{10002, 'map10'},{306,'map10'},
+			{4000, 'map10'},{4001, 'map10'},{4002, 'map10'},{4003, 'map10'},{4004, 'map10'},{5001, 'map10'},{5002, 'map10'},{5003, 'map10'},{5004, 'map10'},{5005, 'map10'}
+			,{1200,'map10'},{1300,'map10'},{1400,'map10'},{1401,'map10'},{1301,'map10'},{5006,'map10'},{6001,'map1'}
+			,{1500,'map10'},{1600,'map10'},{1601,'map10'},{1203,'map10'}
+			]},	
+			
+	   {11,[{100, 'map11'},{101, 'map11'},{200, 'map11'},{202, 'map11'},{300, 'map11'},{301, 'map11'},{302, 'map11'},{303, 'map11'},
+			{304, 'map11'},{305, 'map11'},{307, 'map11'},{400, 'map11'},{500, 'map11'},{501, 'map11'},{502, 'map11'},{503, 'map11'},
+			{600, 'map11'},{601, 'map11'},{602, 'map11'},{603, 'map11'},{604, 'map11'},{700, 'map11'},{701, 'map11'},{800, 'map11'},
+			{900, 'map11'},{901, 'map11'},{902, 'map11'},{1000, 'map11'},{1001, 'map11'},{1100, 'map11'},{10002, 'map11'},{306,'map11'},
+			{4000, 'map11'},{4001, 'map11'},{4002, 'map11'},{4003, 'map11'},{4004, 'map11'},{5001, 'map11'},{5002, 'map11'},{5003, 'map11'},{5004, 'map11'},{5005, 'map11'}
+			,{1200,'map11'},{1300,'map11'},{1400,'map11'},{1401,'map11'},{1301,'map11'},{5006,'map11'},{6001,'map1'}
+			,{1500,'map11'},{1600,'map11'},{1601,'map11'},{1203,'map11'}
+			]},	
+			
+	   {12,[{100, 'map12'},{101, 'map12'},{200, 'map12'},{202, 'map12'},{300, 'map12'},{301, 'map12'},{302, 'map12'},{303, 'map12'},
+			{304, 'map12'},{305, 'map12'},{307, 'map12'},{400, 'map12'},{500, 'map12'},{501, 'map12'},{502, 'map12'},{503, 'map12'},
+			{600, 'map12'},{601, 'map12'},{602, 'map12'},{603, 'map12'},{604, 'map12'},{700, 'map12'},{701, 'map12'},{800, 'map12'},
+			{900, 'map12'},{901, 'map12'},{902, 'map12'},{1000, 'map12'},{1001, 'map12'},{1100, 'map12'},{10002, 'map12'},{306,'map12'},
+			{4000, 'map12'},{4001, 'map12'},{4002, 'map12'},{4003, 'map12'},{4004, 'map12'},{5001, 'map12'},{5002, 'map12'},{5003, 'map12'},{5004, 'map12'},{5005, 'map12'}
+			,{1200,'map12'},{1300,'map12'},{1400,'map12'},{1401,'map12'},{1301,'map12'},{5006,'map12'},{6001,'map1'}
+			,{1500,'map12'},{1600,'map12'},{1601,'map12'},{1203,'map12'}
+			]},	
+			
+	   {13,[{100, 'map13'},{101, 'map13'},{200, 'map13'},{202, 'map13'},{300, 'map13'},{301, 'map13'},{302, 'map13'},{303, 'map13'},
+			{304, 'map13'},{305, 'map13'},{307, 'map13'},{400, 'map13'},{500, 'map13'},{501, 'map13'},{502, 'map13'},{503, 'map13'},
+			{600, 'map13'},{601, 'map13'},{602, 'map13'},{603, 'map13'},{604, 'map13'},{700, 'map13'},{701, 'map13'},{800, 'map13'},
+			{900, 'map13'},{901, 'map13'},{902, 'map13'},{1000, 'map13'},{1001, 'map13'},{1100, 'map13'},{10002, 'map13'},{306,'map13'},
+			{4000, 'map13'},{4001, 'map13'},{4002, 'map13'},{4003, 'map13'},{4004, 'map13'},{5001, 'map13'},{5002, 'map13'},{5003, 'map13'},{5004, 'map13'},{5005, 'map13'}
+			,{1200,'map13'},{1300,'map13'},{1400,'map13'},{1401,'map13'},{1301,'map13'},{5006,'map13'},{6001,'map1'}
+			,{1500,'map13'},{1600,'map13'},{1601,'map13'},{1203,'map13'}
+			]},	
+			
+	   {14,[{100, 'map14'},{101, 'map14'},{200, 'map14'},{202, 'map14'},{300, 'map14'},{301, 'map14'},{302, 'map14'},{303, 'map14'},
+			{304, 'map14'},{305, 'map14'},{307, 'map14'},{400, 'map14'},{500, 'map14'},{501, 'map14'},{502, 'map14'},{503, 'map14'},
+			{600, 'map14'},{601, 'map14'},{602, 'map14'},{603, 'map14'},{604, 'map14'},{700, 'map14'},{701, 'map14'},{800, 'map14'},
+			{900, 'map14'},{901, 'map14'},{902, 'map14'},{1000, 'map14'},{1001, 'map14'},{1100, 'map14'},{10002, 'map14'},{306,'map14'},
+			{4000, 'map14'},{4001, 'map14'},{4002, 'map14'},{4003, 'map14'},{4004, 'map14'},{5001, 'map14'},{5002, 'map14'},{5003, 'map14'},{5004, 'map14'},{5005, 'map14'}
+			,{1200,'map14'},{1300,'map14'},{1400,'map14'},{1401,'map14'},{1301,'map14'},{5006,'map14'},{6001,'map1'}
+			,{1500,'map14'},{1600,'map14'},{1601,'map14'},{1203,'map14'}
+			]},	
+		%% dynamic line server
+		{'LineDynamic',[]}
+		]
+	},
+	
+ 	{fatigue,[{disable,true}, 
+ 			  {version,fatigue_ver2}, 
+			  {goto_url,"http://web.4399.com/user/userinfo.php?type=fangCM"},
+			  {prompt_msg1,<<"">>},
+			  {prompt_msg2,<<"">>},
+			  {ver2_prompt_msg1,<<"">>},
+			  {ver2_prompt_msg2,<<"">>},
+			  {ver2_prompt_msg3,<<"">>},
+			  {ver2_alert_msg,<<"">>},
+			  {ver2_login_msg,<<"">>},
+			  {alert_msg1,<<"">>},
+			  {alert_msg2,<<"">>},
+			  %%{alert_100percent_interval,24},
+			  %%{alert_50percent_interval,12},
+			  %%{alert_0percent_interval,6},
+			 	%%{clear_relex_seconds,120},
+			  %%{gain_50percent_seconds,72},
+			  %%{gain_0percent_seconds,120},
+			  %%{first_warning_seconds,60},
+			  %%{second_warning_seconds,120},
+			  %%{third_warning_seconds,170},
+			  %%{max_fatigue_seconds,200},
+			  
+
+			  {fatigue_list,[{"chunbaitest01",1},
+			  				 {"chunbaitest30",30},
+			  				 {"chunbaitest50",50},
+			  				 {"chunbaitest80",80},
+			  				 {"chunbaitest100",100}
+			  				 ]},
+			  {nofatigue_list,[{"chunbaitest01n",1},
+			  				   {"chunbaitest30n",30},
+			  				   {"chunbaitest50n",50},
+			  				   {"chunbaitest80n",80},
+			  				   {"chunbaitest100n",100}
+			  				   ]}
+			  ]}
+
+].

@@ -1,0 +1,16 @@
+-define(WELFARE_ACTIVITY_DATA,welfare_activity_data).
+-define(FIRST_PAY,1).
+-define(NEW_BIRD,2).
+-define(TW_MEMBER,3).
+-define(TW_NEW_BIRD,4).
+-define(TW_FIRST_PAY,5).
+-define(GOLD_EXCHANGE_ACTIVITY,6).
+-define(TW_OTHER,7).
+-define(GOLDEN_PLUME_AWARDS,8).
+-define(CONSUME_RETRURN,9).
+-define(UNFINISHED,0).
+-define(FINISHED,1).
+-define(OPEN,1).
+-define(CLOSE,0).
+-define(PACKAGE_FULL,0).
+-define(NOGIFT,0).

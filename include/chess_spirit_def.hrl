@@ -1,0 +1,4 @@
+-record(chess_spirit_config,{npcid,type,fixed_skills,random_skills,max_section,section_duration,chess_skills,chess_max_power,chess_power_addation}).
+-record(chess_spirit_section,{type_section,power_rewards,spawns,item_rewards,skills_level}).
+-record(chess_spirit_rewards,{type_level,exp_args,expect_sec}).
+-record(role_chess_spirit_log,{roleid,last_info,best_info,ext}).

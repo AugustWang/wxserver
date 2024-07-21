@@ -1,0 +1,4 @@
+npcid	init_hp	max_hp	next_proto
+
+2062099	100	300	2063099
+2061099	0	100	2062099

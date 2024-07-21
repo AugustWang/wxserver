@@ -1,0 +1,9 @@
+{application, chat_app,
+[{description,"ZY chat server"},
+ {vsn,"1.0"},
+ {modules,[chat_app,chat_manager_sup,chat_manager,chat_process_sup,chat_process]},
+ {registered,[chat_manager_sup,chat_manager,chat_process_sup,chat_process]},
+ {applications,[kernel,stdlib]},
+ {mod,{chat_app,[]}}
+ ]
+}.

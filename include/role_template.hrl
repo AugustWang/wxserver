@@ -1,0 +1,1 @@
+-record(template_itemproto,{setid,entry}).

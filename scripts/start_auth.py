@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+import os
+import sys
+
+
+host = '127.0.0.1'
+
+if len(sys.argv) > 1:
+    host = sys.argv[1]
+
+cmdline = './start.py  --dbcenter $host$ --linecenter $host$ --gmcenter $host$ --auth $host$'
+cmdline = cmdline.replace('$host$',host)
+os.system(cmdline)

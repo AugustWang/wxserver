@@ -1,0 +1,7 @@
+level	gold	addition	bonus
+
+8	0	[{flyshoes,{1,40}}]	[]
+7	8000	[{flyshoes,{0,0}},{kill_monster,30},{enchantment,2},{spa_addition,0.5},{sitdown_addition,0.05},{pet_growth,2}]	[{0,[{{1,100},[{19010061,1},{19010081,2},{10033001,1}]}]}]
+5	0	[{flyshoes,{1,40}},{kill_monster,20},{enchantment,1},{spa_addition,0.3},{sitdown_addition,0.05},{pet_growth,1.5}]	[{0,[{{1,100},[{19010041,1}]}]}]
+4	0	[{flyshoes,{1,20}},{kill_monster,10},{spa_addition,0.1}]	[{0,[{{1,100},[{19010071,1}]}]}]
+0	0	[]	[]

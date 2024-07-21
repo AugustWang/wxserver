@@ -1,0 +1,10 @@
+{application, crossdomain_app,
+[{description,"ZY crossdomain server"},
+ {vsn,"1.0"},
+ {modules,[crossdomain_app,crossdomain_sup,crossdomain]},
+ {registered,[crossdomain_sup,crossdomain]},
+ {applications,[kernel,stdlib]},
+ {mod,{crossdomain_app,[]}},
+ {env,[]}
+ ]
+}.

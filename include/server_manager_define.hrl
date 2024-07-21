@@ -1,0 +1,2 @@
+-define(SMANAGER_PROC,'server_manager').
+-define(SMANAGER_NODE,'server_manager@127.0.0.1').
